@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Interactive Web Page</h1>
+  </header>
+
+  <div class="container">
+    <!-- Secret Message -->
+  <div id="secretMsg" style="text-align:center; display:none; margin-top:20px; font-size:1.2em;">🎉 You found the secret!</div>
+    <!-- Color Changing Button -->
+    <div class="color-changer">
+      <p>Double click to reveal the secret</p>
+      <button id="changeColorBtn">Click Me!</button>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+      <img src="images/html.png" alt="Html">
+      <img src="images/css.png" alt="CSS">
+      <img src="images/js.png" alt="JavaScript">
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab-button active" data-tab="1">About</div>
+      <div class="tab-button" data-tab="2">Services</div>
+      <div class="tab-button" data-tab="3">Contact</div>
+    </div>
+    <div class="tab-content active" id="tab-1">
+      <p>This is a modern, responsive, interactive webpage built with HTML, CSS, and JS!</p>
+    </div>
+    <div class="tab-content" id="tab-2">
+      <p>We provide clean design, interactivity, and mobile-friendly layouts!</p>
+    </div>
+    <div class="tab-content" id="tab-3">
+      <p>Contact us at <a href="#">info@example.com</a>.</p>
+    </div>
+
+    <!-- Form -->
+    <div class="form-section">
+      <h2>Sign Up Form</h2>
+      <form id="signupForm" novalidate>
+        <label>Email</label>
+        <input type="email" id="email" required>
+        <div class="feedback" id="emailFeedback"></div>
+
+        <label>Password</label>
+        <input type="password" id="password" required minlength="8">
+        <div class="feedback" id="passwordFeedback"></div>
+
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

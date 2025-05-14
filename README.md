@@ -6,6 +6,7 @@ Welcome to the **ultimate JavaScript playground**! 🎉 This assignment is where
 
 ```
 📂 js-event-assignment/
+├── images/            # folder for images
 ├── index.html         # Your playground – where it all comes together
 ├── style.css          # Keep it cute (optional but encouraged)
 └── script.js          # The JavaScript wizardry happens here
